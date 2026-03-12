@@ -14,7 +14,20 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(gh repo:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(ls -la \"/Users/tfa/Dev/gpc-app/assets/PNG \\(Transparent\\)/\")",
+      "Bash(brew install:*)",
+      "Bash(pdftoppm -v)",
+      "Bash(pdftotext -layout \"/Users/tfa/Dev/gpc-app/assets/Branding Guidelines.pdf\" /tmp/brand-guidelines.txt)",
+      "Read(//tmp/**)",
+      "Bash(pdfinfo \"/Users/tfa/Dev/gpc-app/assets/Branding Guidelines.pdf\")",
+      "Bash(pdftoppm -png -r 150 -f 1 -l 7 \"/Users/tfa/Dev/gpc-app/assets/Branding Guidelines.pdf\" /tmp/brand-page)",
+      "Bash(pdftoppm -png -r 150 -f 8 -l 14 \"/Users/tfa/Dev/gpc-app/assets/Branding Guidelines.pdf\" /tmp/brand-page-b)",
+      "Bash(git -C /Users/tfa/Dev/gpc-app log --oneline --all)",
+      "Bash(/Users/tfa/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.2/skills/brainstorming/scripts/start-server.sh --project-dir /Users/tfa/Dev/gpc-app)",
+      "Bash(git checkout:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init -d)"
     ]
   }
 }
