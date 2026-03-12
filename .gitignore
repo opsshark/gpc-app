@@ -45,4 +45,4 @@ yarn-error.log*
 next-env.d.ts
 
 # typescript
-Test
+/Test
