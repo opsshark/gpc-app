@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(npx --version)",
+      "Bash(rm -rf .git)",
+      "Bash(git init:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Read(//private/tmp/**)",
+      "Bash(npx create-next-app@latest gpc-app-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(npx create-next-app@latest gpc-app-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --no-react-compiler)",
+      "Bash(cp -a /tmp/gpc-app-tmp/. /Users/tfa/Dev/gpc-app/)",
+      "Bash(rm -rf /tmp/gpc-app-tmp)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
