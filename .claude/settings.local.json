@@ -12,7 +12,9 @@
       "Bash(cp -a /tmp/gpc-app-tmp/. /Users/tfa/Dev/gpc-app/)",
       "Bash(rm -rf /tmp/gpc-app-tmp)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(git push:*)"
     ]
   }
 }
